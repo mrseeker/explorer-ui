@@ -17,9 +17,9 @@
  */
 
 :root {
-  --ps-top-bar-bg-color: #222;
-  --ps-top-bar-text-color: #FFF;
-  --ps-top-bar-logo-text-color: #FFF;
+  --ps-top-bar-bg-color: #111;
+  --ps-top-bar-text-color: #f2f2f2;
+  --ps-top-bar-logo-text-color: #f2f2f2;
   --ps-top-bar-logo-dot-color: #ff9900;
   --ps-grid-column-padding: 10px;
   --ps-badge-good-color: #008000;
@@ -28,9 +28,10 @@
 }
 
 button, html, input, select, textarea {
-  font-family: "Lexend", sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 400;
-  color: #350659;
+  color: #f2f2f2;
+  background-color: #121212;
 }
 
 body, html {
@@ -135,10 +136,10 @@ attribute-struct {
   thead {
     th {
       text-align: left;
-      color: rgba(0, 0, 0, 0.54);;
+      color: rgba(255, 255, 255, 0.54);;
       font-size: 12px;
       font-weight: 500;
-      border-bottom-color: rgba(0, 0, 0, 0.12);
+      border-bottom-color: rgba(255, 255, 255, 0.12);
     }
   }
 
@@ -149,14 +150,14 @@ attribute-struct {
   }
 
   td, th {
-    border-bottom: solid 1px rgba(0, 0, 0, 0.12);
+    border-bottom: solid 1px rgba(255, 255, 255, 0.12);
     padding: 0.5rem;
   }
 }
 
 .detail-table--label-cell {
   text-align: left;
-  color: rgba(0, 0, 0, 0.75);
+  color: rgba(255, 255, 255, 0.75);
   font-size: 12px;
   font-weight: 500;
   min-width: 8rem;
