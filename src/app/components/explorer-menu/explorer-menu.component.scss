@@ -16,20 +16,19 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-
 .explorer-menu__container {
   height: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  border-bottom: solid 1px #aaaaaa;
-  background: #fff;
+  border-bottom: solid 1px #262626;
+  background: #404040;
 }
 
 .explorer-menu__network-name {
   line-height: 50px;
   padding-right: 2rem;
-  color: #666;
+  color: #f2f2f2;
 }
 
